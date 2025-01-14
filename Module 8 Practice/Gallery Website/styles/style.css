@@ -70,8 +70,34 @@ nav {
     border-radius: 8px;
 }
 
+/* About Me Section */
+.about-me {
+    width: 50%;
+    margin: 100px 0px;
+}
+.about-me-para {
+    font-size: 26px;
+    line-height: 39px;
+    font-weight: 300;
+}
 
+.about-me-links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.about-me-links a {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.about-me-links a:hover {
+    color: #555;
+}
 
 /* media Query */
 @media screen and (max-width: 576px) {
