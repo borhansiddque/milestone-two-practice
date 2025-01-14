@@ -1,0 +1,99 @@
+/* Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Navbar Style */
+header {
+    background-color: #edebfa;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.logo {
+    font-size: 29px;
+    color: #0f0f0f;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f0f0f;
+}
+
+.menu li a:hover {
+    color: #5e5e5e;
+}
+
+/* Hero Section Style */
+
+.hero-section {
+    padding: 200px;
+}
+
+.hero-title {
+    color: #0f0f0f;
+    font-size: 73px;
+    font-weight: 500;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+    .hero-section {
+        padding: 140px 100px;
+    }
+    .hero-title {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .hero-section {
+        padding: 80px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+}
+
