@@ -220,6 +220,11 @@ footer {
     outline: none;
     background-color: #0f0f0f;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer-btn:hover {
+    background-color: #101010;
 }
 
 .abdullahs-temp {
@@ -263,7 +268,7 @@ footer {
         padding: 80px;
     }
 
-    .personal-information-container p{
+    .personal-information-container p {
         font-size: 30px;
         line-height: 50px;
     }
@@ -292,6 +297,30 @@ footer {
         gap: 60px;
     }
 
+    footer {
+        padding: 120px 0px;
+    }
+
+    .footer-container {
+        display: flex;
+        gap: 80px;
+    }
+
+    .footer-title-section .section-title {
+        font-size: 50px;
+    }
+    
+    .footer-links-section {
+        gap: 40px;
+    }
+
+    .footer-btn {
+        width: 50%;
+    }
+
+    .footer-links-container {
+        gap: 30px;
+    }
     
 }
 
@@ -315,6 +344,19 @@ footer {
         border-bottom: 2px solid #5e5e5e;
         padding-bottom: 30px;
     }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-title-section {
+        width: 100%;
+    }
+    
+    .footer-links-section {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -373,6 +415,19 @@ footer {
 
     .testimonial-section .section-title {
         font-size: 55px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-btn {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .footer-links-container {
+        flex-direction: column;
     }
 
 }
