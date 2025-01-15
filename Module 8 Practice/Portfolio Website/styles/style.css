@@ -61,17 +61,18 @@ nav {
 /* Hero Section Style */
 
 .hero-section {
-    padding: 200px;
+    padding: 230px 300px;
 }
 
 .hero-title {
     color: #0f0f0f;
-    font-size: 73px;
+    font-size: 100px;
     font-weight: 500;
+    line-height: 100px;
 }
 
 /* Media */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .hero-section {
         padding: 140px 100px;
     }
