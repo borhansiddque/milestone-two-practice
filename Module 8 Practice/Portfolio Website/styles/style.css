@@ -9,6 +9,7 @@
 
 body {
     font-family: "Inter", serif;
+    /* scroll-behavior: smooth; */
 }
 
 li {
@@ -180,13 +181,72 @@ nav {
     margin: 20px 0px;
 }
 
+/* Footer Section Style */
+footer {
+    background-color: #edebfa;
+    padding: 160px 0px;
+}
 
+.footer-container {
+    display: flex;
+    gap: 220px;
+}
 
+.footer-title-section {
+    width: 50%;
+}
 
+.footer-title-section .section-title {
+    margin-top: 0px;
+}
 
+.footer-links-section {
+    width: 50%;
+}
 
+.footer-links-section {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
 
+.footer-btn {
+    width: 25%;
+    padding: 30px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #0f0f0f;
+    border-radius: 20px;
+}
 
+.abdullahs-temp {
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #101010;
+}
+
+.abdullahs-temp:hover {
+    text-decoration: none;
+}
+
+.footer-links-container {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-links-container a {
+    color: #101010;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-links-container a:hover {
+    color: #5e5e5e;
+}
 
 /* Media */
 @media screen and (max-width: 992px) {
