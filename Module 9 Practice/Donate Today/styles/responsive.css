@@ -1,0 +1,36 @@
+@media screen and (max-width: 1280px) {
+    .hero-section {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero-section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero-section {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .container {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 45px;
+    }
+}
