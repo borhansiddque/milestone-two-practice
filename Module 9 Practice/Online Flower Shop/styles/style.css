@@ -150,3 +150,33 @@ header {
     text-decoration: underline;
     margin-top: 32px;
 }
+
+/* Support Section Style */
+.support-section {
+    padding: 87px 20px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 120px;
+}
+
+.support-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.support {
+    text-align: center;
+}
+
+.support img {
+    width: 70px;
+}
+
+.support p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 20px;
+}

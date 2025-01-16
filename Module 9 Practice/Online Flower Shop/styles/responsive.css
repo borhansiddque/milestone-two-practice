@@ -53,6 +53,11 @@
     .featured-section .section-head {
         width: 100%;
     }
+
+    .support-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+    }
     
 }
 
@@ -65,13 +70,22 @@
         font-size: 40px;
     }
 
-    
     .featured-section .section-head {
         width: 100%;
     }
 
     .featured-flower-container {
         grid-template-columns: 1fr;
+    }
+
+    .support-section {
+        padding: 40px 20px;
+        margin-bottom: 80px;
+    }
+
+    .support-container {
+        grid-template-columns:  1fr;
+        row-gap: 50px;
     }
 }
 
