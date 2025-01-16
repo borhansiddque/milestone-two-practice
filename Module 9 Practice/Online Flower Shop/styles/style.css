@@ -180,3 +180,37 @@ header {
     line-height: 35px;
     margin-top: 20px;
 }
+
+/* Hot Deal Section Style */
+
+.hot-deal-section {
+    padding: 100px 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.hot-deal-content {
+    width: 50%;
+    text-align: center;
+}
+
+.hot-deal-content .section-title span {
+    color: #E55473;
+}
+
+.hot-deal-content .paragraph {
+    margin: 20px 0px 30px;
+}
+
+.hot-deal-img {
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

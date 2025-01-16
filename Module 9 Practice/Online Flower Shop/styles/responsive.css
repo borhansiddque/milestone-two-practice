@@ -58,6 +58,18 @@
         grid-template-columns: repeat(2, 1fr);
         row-gap: 50px;
     }
+
+    .hot-deal-container {
+        flex-direction: column-reverse;
+    }
+
+    .hot-deal-content {
+        width: 85%;
+    }
+
+    .hot-deal-img img {
+        width: 100%;
+    }
     
 }
 
@@ -78,6 +90,11 @@
         grid-template-columns: 1fr;
     }
 
+    .featured-flower-img {
+        height: 400px;
+        padding: 30px 40px 0px;
+    }
+
     .support-section {
         padding: 40px 20px;
         margin-bottom: 80px;
@@ -86,6 +103,18 @@
     .support-container {
         grid-template-columns:  1fr;
         row-gap: 50px;
+    }
+
+    .hot-deal-content {
+        width: 100%;
+    }
+
+    .hot-deal-content {
+        width: 100%;
+    }
+
+    .hot-deal-content .section-title {
+        font-size: 30px;
     }
 }
 
