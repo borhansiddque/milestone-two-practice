@@ -34,6 +34,15 @@
     .featured-section .section-head {
         width: 70%;
     }
+
+    .instagram-post-section .section-head {
+        width: 60%;
+    }
+    
+    .instagram-post-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -115,6 +124,15 @@
 
     .hot-deal-content .section-title {
         font-size: 30px;
+    }
+
+    .instagram-post-section .section-head {
+        width: 100%;
+    }
+    
+    .instagram-post-container {
+        grid-template-columns: 1fr;
+
     }
 }
 
