@@ -237,3 +237,41 @@ header {
     border-radius: 10px;
     cursor: pointer;
 }
+
+/* Contact Section */
+.contact-section{
+    padding: 120px 0px;
+    background-image: url("../images/contact-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-content .paragraph {
+    margin: 16px 0px 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.email-input {
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0px 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+form .btn {
+    width: 30%;
+}

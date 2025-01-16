@@ -43,6 +43,10 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
+
+    .contact-content {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -77,6 +81,14 @@
     }
 
     .hot-deal-img img {
+        width: 100%;
+    }
+
+    .contact-section{
+        padding: 80px 20px;
+    }
+
+    .contact-content {
         width: 100%;
     }
     
@@ -132,7 +144,23 @@
     
     .instagram-post-container {
         grid-template-columns: 1fr;
+    }
 
+    .contact-section{
+        padding: 50px 20px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .email-input {
+        width: 100%;
+        padding: 25px 20px;
+    }
+    
+    form .btn {
+        width: 100%;
     }
 }
 
