@@ -21,6 +21,10 @@ a {
     margin: 0 auto;
 }
 
+.section-head {
+    text-align: center;
+}
+
 .section-title {
     font-size: 45px;
     font-weight: 700;
@@ -79,4 +83,22 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Donate Section Style */
+.donate-section {
+    padding: 130px 0px;
+}
+
+.donate-amount-card-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.donate-amount-card {
+    padding: 43px 25px;
+    border-radius: 5px;
+    background: #FAFAFA;
 }
