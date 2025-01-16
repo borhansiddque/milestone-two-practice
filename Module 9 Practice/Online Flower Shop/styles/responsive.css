@@ -41,11 +41,14 @@
     
     .instagram-post-container {
         grid-template-columns: repeat(2, 1fr);
-
     }
 
     .contact-content {
         width: 80%;
+    }
+
+    .footer-content {
+        width: 65%;
     }
 }
 
@@ -90,6 +93,10 @@
 
     .contact-content {
         width: 100%;
+    }
+
+    .footer-content {
+        width: 80%;
     }
     
 }
@@ -160,6 +167,10 @@
     }
     
     form .btn {
+        width: 100%;
+    }
+
+    .footer-content {
         width: 100%;
     }
 }

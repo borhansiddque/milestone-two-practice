@@ -238,7 +238,7 @@ header {
     cursor: pointer;
 }
 
-/* Contact Section */
+/* Contact Section Style */
 .contact-section{
     padding: 120px 0px;
     background-image: url("../images/contact-bg.png");
@@ -274,4 +274,37 @@ form {
 
 form .btn {
     width: 30%;
+}
+
+/* Footer Section Style */
+
+footer {
+    margin-top: 100px;
+    padding: 120px 0px;
+    background: #111010;
+}
+
+.footer-content {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.footer-content p.paragraph {
+    color: rgba(255, 255, 255, 0.90);
+    margin: 24px 0px 32px;
+}
+
+.footer-logo {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-logo span {
+    color: #E55473;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
 }
