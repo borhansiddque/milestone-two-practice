@@ -27,6 +27,15 @@
     .donate-amount {
         font-size: 25px;
     }
+
+    .our-donate-plan-section .section-head {
+        width: 100%;
+    }
+
+    .donate-plan-cards-container {
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -49,6 +58,15 @@
     .donate-amount-card-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .our-donate-plan-section .section-head {
+        width: 100%;
+    }
+    
+    .donate-plan-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -62,6 +80,14 @@
 
     .donate-amount-card-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .our-donate-plan-section .section-head {
+        width: 70%;
+    }
+
+    .donate-plan-cards-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
