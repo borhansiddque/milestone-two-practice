@@ -64,7 +64,7 @@ header {
 
 .hero-section {
     text-align: center;
-    width: 45%;
+    width: 46%;
     margin: 0 auto;
 }
 
@@ -88,6 +88,12 @@ header {
 /* Donate Section Style */
 .donate-section {
     padding: 130px 0px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.donate-section .section-head .paragraph {
+    margin-top: 20px;
 }
 
 .donate-amount-card-container {
@@ -101,4 +107,46 @@ header {
     padding: 43px 25px;
     border-radius: 5px;
     background: #FAFAFA;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.donate-amount-card:hover {
+    border: 2px solid #FF5959;
+    background: #FEE;
+    cursor: pointer;
+}
+
+.donate-amount-card:hover .donate-amount {
+    color: #FF5959;
+}
+
+.donate-amount {
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.donate-other-amount {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-other-amount .other-amount-input {
+    width: 100%;
+    padding: 10px 0px;
+    color: #B3B3B3;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    outline: none;
+}
+
+.other-amount-submit-btn {
+    margin-top: 30px;
 }
