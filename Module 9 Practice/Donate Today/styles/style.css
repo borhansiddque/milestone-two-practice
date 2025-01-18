@@ -196,3 +196,43 @@ header {
     font-weight: 600;
     margin: 25px 0px 16px;
 }
+
+/* Donate Blog Section Style  */
+.donate-blog-section {
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.donate-blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.donate-blog-content {
+    width: 40%;
+}
+
+.donate-blog-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.donate-blog-para {
+    margin-top: 20px;
+}
+
+.donate-blog-content .btn {
+    margin-top: 30px;
+}
+
+.donate-blog-img {
+    width: 30%;
+}
+
+.donate-blog-img img {
+    width: 100%;
+}
