@@ -271,3 +271,28 @@ header {
     border-radius: 0px 5px 5px 0px;
     background: #FF5959;
 }
+
+/* Footer Section Style */
+footer {
+    background-color: #0B0D17;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FF5959;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.footer-para {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
