@@ -37,3 +37,43 @@ a {
     outline: none;
     cursor: pointer;
 }
+
+.text-orange {
+    color: transparent;
+    background: linear-gradient(88deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Navbar Style */
+.navbar {
+    background: #0B0D17;
+    padding: 30px 0px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    color: #ffa500;
+}
