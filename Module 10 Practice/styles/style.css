@@ -1,0 +1,39 @@
+/* Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Common CSS */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 20px 25px;
+    border-radius: 100px;
+    background: linear-gradient(88deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.50);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
