@@ -239,3 +239,23 @@ a {
     font-weight: 700;
     margin-bottom: 10px;
 }
+
+/* Footer Style */
+.footer {
+    background: #0B0D17;
+    padding: 35px 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.footer-title {
+    color: #5B5B5B;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-paragraph {
+    color:#fff;
+}

@@ -106,4 +106,10 @@
         padding: 40px;
         gap: 40px;
     }
+
+    .footer {
+        background: #0B0D17;
+        padding: 40px 20px;
+        text-align: center;
+    }
 }
